@@ -1,0 +1,154 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+body {
+   background-color: #134667;
+}
+
+.logo {
+   height: 50px;
+   margin: 5px
+}
+
+.container {
+   width: 1300px;
+   margin: 0 auto;
+}
+
+
+
+header .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: -100px;
+   /* border: 3px solid yellow; */
+   padding: 20px;
+
+}
+
+header a {
+   padding: 10px;
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1000px;
+}
+
+.contact{
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   font-size: 50px;
+}
+
+.contactlist{
+   display: flex;
+   justify-content: space-around;
+   padding: 50px;
+   font-size: 25px;
+}
+
+.contactstuff{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+section{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 50px;
+   margin-bottom: 100px;
+   height: 100vh;
+}
+
+.section1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("img/bgfldpg.png"), linear-gradient(#000000, #0000000c);
+   background-blend-mode: darken;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0px;
+}
+
+
+.heading{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.menustuff{
+   color: white;
+   border: 2px solid white;
+   border-radius: 10px;
+   margin: 5px;
+}
+
+h1{
+   color: white;
+   font-size: 75px;
+}
+
+h2{
+   color: white;
+   font-size: 25px;
+}
+
+.heading a{
+   color: white;
+   font-size: 25px;
+   border: 2px solid white;
+   border-radius: 10px;
+   margin-top: 10vh;
+   padding: 10px;
+}
+
+.text{
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+}
+
+h4 {
+   font-size: 75px;
+   color:aqua
+}
+
+section img {
+   width: 500px;
+}
+
+p {
+   color: white;
+}
+
+section p {
+   font-size: 50px;
+}
+
+footer img {
+   height: 50px;
+   width: 50px;
+}
+
+footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+}
